@@ -1,0 +1,93 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* Main content styles */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Dropzone styles */
+.dropzone {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Loader styles */
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Uploaded URLs styles */
+.uploaded-urls {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.selected-videos {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.selected-videos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.selected-videos li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* Remove button styles */
+.selected-videos button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.selected-videos button:hover {
+  background-color: #c0392b;
+}
+
+.upload-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.upload-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+}
