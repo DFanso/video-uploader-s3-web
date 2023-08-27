@@ -29,7 +29,7 @@ const VideoUploader = () => {
       formData.append('videos', video);
     });
     try {
-        const response = await axios.post('http://localhost:3000/upload', formData, {
+        const response = await axios.post('http://45.76.155.253:3001/upload', formData, {
           headers: {
             'Content-Type': 'multipart/form-data',
           },
