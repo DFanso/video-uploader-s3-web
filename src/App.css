@@ -58,9 +58,12 @@ body {
   align-items: center;
   margin-bottom: 8px;
 }
+.custom-upload-button {
+  background-color: #3498db; /* Keep the blue color */
+}
 
 /* Remove button styles */
-.selected-videos button {
+.remove-button{
   background-color: #e74c3c;
   color: white;
   border: none;
@@ -68,17 +71,18 @@ body {
   cursor: pointer;
 }
 
-.selected-videos button:hover {
+.remove-button:hover {
   background-color: #c0392b;
 }
 
 .upload-button {
-  background-color: #3498db;
+  background-color: #3498db; /* Keep the blue color */
   color: white;
   border: none;
   padding: 10px 20px;
   margin-top: 20px;
   cursor: pointer;
+  position: relative;
 }
 
 .upload-button:disabled {
